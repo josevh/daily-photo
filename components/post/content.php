@@ -32,6 +32,10 @@
 		endif; ?>
 	</header>
 	<div class="entry-content">
+	<?php 
+// 	var_dump(get_post_format( the_ID() )); 
+// TODO: if get_post_format(id) == "image".. etc..
+	?>
 		<?php
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
