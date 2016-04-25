@@ -727,14 +727,14 @@ body {
 --------------------------------------------------------------*/
 #masthead {
     color: #fff;
-    background-color: #000;
+    background-color: #23282d;
     padding-left: 15px;
     padding-right: 15px;
 }
 #masthead > .site-branding > .site-title {
     font-size: 3em;
     margin-bottom: 0;
-    /*margin-top: 0;*/
+    margin-top: 15px;
 }
 #masthead > .site-branding > .site-title > a {
     color: #9d9d9d;
