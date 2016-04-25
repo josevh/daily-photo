@@ -33,6 +33,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Lists
 # Tables
 # Navigation
+# Nav Links
 # Links
 # Layout
     ## Header
@@ -665,6 +666,25 @@ table {
 }
 
 /*--------------------------------------------------------------
+# Nav Links
+--------------------------------------------------------------*/
+#top-menu a {
+  color: #9d9d9d;
+}
+#top-menu a:visited {
+  color: #9d9d9d;
+}
+#top-menu a:hover, a:focus, a:active {
+  color: #fff;
+}
+#top-menu a:focus {
+  outline: thin dotted;
+}
+#top-menu a:hover, a:active {
+  outline: 0;
+}
+
+/*--------------------------------------------------------------
 # Links
 --------------------------------------------------------------*/
 a {
@@ -675,25 +695,6 @@ a:visited {
 }
 a:hover, a:focus, a:active {
   color: midnightblue;
-}
-a:focus {
-  outline: thin dotted;
-}
-a:hover, a:active {
-  outline: 0;
-}
-
-/*--------------------------------------------------------------
-# Links
---------------------------------------------------------------*/
-a {
-  color: #9d9d9d;
-}
-a:visited {
-  color: #9d9d9d;
-}
-a:hover, a:focus, a:active {
-  color: #fff;
 }
 a:focus {
   outline: thin dotted;
