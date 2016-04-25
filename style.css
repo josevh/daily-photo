@@ -740,9 +740,9 @@ body {
     color: #9d9d9d;
     text-decoration: none;
 }
-h1.site-title a:hover,
-h1.site-title a:active,
-h1.site-title a:focus{
+#masthead > .site-branding > .site-title > a:hover,
+#masthead > .site-branding > .site-title > a:active,
+#masthead > .site-branding > .site-title > a:focus{
     color: #fff;
 }
 #masthead > .site-branding > .site-description {
