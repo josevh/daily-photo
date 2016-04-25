@@ -35,6 +35,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Navigation
 # Links
 # Layout
+    ## Header
 	## Posts
 	## Pages
 # Comments
@@ -686,13 +687,13 @@ a:hover, a:active {
 # Links
 --------------------------------------------------------------*/
 a {
-  color: royalblue;
+  color: #9d9d9d;
 }
 a:visited {
-  color: purple;
+  color: #9d9d9d;
 }
 a:hover, a:focus, a:active {
-  color: midnightblue;
+  color: #fff;
 }
 a:focus {
   outline: thin dotted;
@@ -720,6 +721,35 @@ body {
   /* Fallback for when there is no custom background color defined. */
 }
 
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+#masthead {
+    color: #fff;
+    background-color: #000;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#masthead > .site-branding > .site-title {
+    font-size: 3em;
+    margin-bottom: 0;
+    /*margin-top: 0;*/
+}
+#masthead > .site-branding > .site-title > a {
+    color: #9d9d9d;
+    text-decoration: none;
+}
+h1.site-title a:hover,
+h1.site-title a:active,
+h1.site-title a:focus{
+    color: #fff;
+}
+#masthead > .site-branding > .site-description {
+    margin-top: 0;
+}
+h2.site-description {
+    font-size: 75%;
+}
 /*--------------------------------------------------------------
 ## Posts
 --------------------------------------------------------------*/
