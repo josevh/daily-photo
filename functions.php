@@ -117,6 +117,8 @@ add_action( 'widgets_init', 'daily_photo_widgets_init' );
  * Enqueue scripts and styles.
  */
 function daily_photo_scripts() {
+    wp_enqueue_style( 'dailyphoto-google-font', 'http://fonts.googleapis.com/css?family=Lato');
+    
 	wp_enqueue_style( 'daily-photo-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'daily-photo-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), '20151215', true );
