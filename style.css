@@ -38,6 +38,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Layout
     ## Header
 	## Posts
+	    ### Posts Meta
+	    ### Posts Footers  
 	## Pages
 # Comments
 # Widgets
@@ -600,6 +602,7 @@ table {
   padding-left: 0;
 }
 .main-navigation ul ul {
+  background-color: #23282d;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   float: left;
   position: absolute;
@@ -624,6 +627,7 @@ table {
 .main-navigation li {
   float: left;
   position: relative;
+  margin: 0 5px;
 }
 .main-navigation a {
   display: block;
@@ -675,7 +679,7 @@ table {
   color: #9d9d9d;
 }
 #top-menu a:hover, a:focus, a:active {
-  color: #fff;
+  color: #00b9eb;
 }
 #top-menu a:focus {
   outline: thin dotted;
@@ -689,6 +693,7 @@ table {
 --------------------------------------------------------------*/
 a {
   color: royalblue;
+  text-decoration: none;
 }
 a:visited {
   color: purple;
@@ -781,6 +786,32 @@ h2.site-description {
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
   display: none;
+}
+
+.post {
+    width: 33%;
+    float: left;
+    margin: 0 15px 15px 15px;
+}
+.post .entry-title {
+    margin-bottom: 0;
+}
+/*--------------------------------------------------------------
+### Posts Meta
+--------------------------------------------------------------*/
+.entry-meta  {
+    font-size: 80%;
+}
+
+
+/*--------------------------------------------------------------
+### Posts Footers
+--------------------------------------------------------------*/
+.entry-footer {
+    font-size: 80%;
+}
+.entry-footer > span {
+    margin: 0 5px;
 }
 
 /*--------------------------------------------------------------
