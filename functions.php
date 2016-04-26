@@ -117,7 +117,7 @@ add_action( 'widgets_init', 'daily_photo_widgets_init' );
  * Enqueue scripts and styles.
  */
 function daily_photo_scripts() {
-    wp_enqueue_style( 'dailyphoto-google-font', 'http://fonts.googleapis.com/css?family=Lato');
+    wp_enqueue_style( 'dailyphoto-google-font', 'http://fonts.googleapis.com/css?family=Open+Sans');
     
 	wp_enqueue_style( 'daily-photo-style', get_stylesheet_uri() );
 
