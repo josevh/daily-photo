@@ -792,7 +792,7 @@ h2.site-description {
 .post {
     width: 30%;
     float: left;
-    margin: 0 15px 15px 15px;
+    margin: 15px 15px 0 15px;
 }
 .post .entry-title {
     margin-bottom: 0;
@@ -827,7 +827,6 @@ h2.site-description {
 ## Content Secondary
 --------------------------------------------------------------*/
 #content > #secondary {
-    float: left;
     clear: both;
 }
 
