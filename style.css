@@ -41,6 +41,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	    ### Posts Meta
 	    ### Posts Footers  
 	## Pages
+	## Content Secondary
 # Comments
 # Widgets
 # Infinite scroll
@@ -820,6 +821,14 @@ h2.site-description {
 .page-links {
   clear: both;
   margin: 0 0 1.5em;
+}
+
+/*--------------------------------------------------------------
+## Content Secondary
+--------------------------------------------------------------*/
+#content > #secondary {
+    float: left;
+    clear: both;
 }
 
 /*--------------------------------------------------------------
