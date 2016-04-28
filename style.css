@@ -538,7 +538,8 @@ table {
   .main-navigation li {
     position: relative;
     margin: 0 15px;
-    display: inline-block; }
+    display: inline-block;
+    background-color: #fff; }
   .main-navigation a {
     display: inline-block;
     text-decoration: none;
