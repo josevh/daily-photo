@@ -29,6 +29,7 @@
 
 .has-post-thumbnail,
 .format-image {
+    clear: both;
     
     > .image-wrapper {
         width: 75%;
@@ -48,6 +49,10 @@
         .entry-meta {
             font-size: 75%;
         }
+        
+        p {
+            font-size: 85%;
+        }
     }
-    }
+}
     
