@@ -35,6 +35,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Navigation
 # Links
 # Layout
+    ## Header
 	## Posts
 	## Pages
 # Comments
@@ -312,7 +313,7 @@ input,
 select,
 textarea {
   color: #404040;
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5; }
@@ -513,30 +514,35 @@ table {
     display: none;
     list-style: none;
     margin: 0;
-    padding-left: 0; }
+    padding-left: 0;
+    text-align: center; }
     .main-navigation ul ul {
       box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-      float: left;
+      text-align: left;
       position: absolute;
-      top: 1.5em;
       left: -999em;
       z-index: 99999; }
       .main-navigation ul ul ul {
         left: -999em;
         top: 0; }
-      .main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
-        left: 100%; }
-      .main-navigation ul ul a {
-        width: 200px; }
+      .main-navigation ul ul li {
+        display: inherit;
+        white-space: nowrap;
+        width: 100%;
+        margin: 0; }
+        .main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
+          left: 100%; }
     .main-navigation ul li:hover > ul,
     .main-navigation ul li.focus > ul {
-      left: auto; }
+      left: 0; }
   .main-navigation li {
-    float: left;
-    position: relative; }
+    position: relative;
+    margin: 0 15px;
+    display: inline-block; }
   .main-navigation a {
-    display: block;
-    text-decoration: none; }
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px; }
 
 /* Small menu. */
 .menu-toggle,
@@ -570,25 +576,12 @@ table {
 # Links
 --------------------------------------------------------------*/
 a {
-  color: royalblue; }
+  color: #000;
+  text-decoration: none; }
   a:visited {
-    color: purple; }
+    color: #000; }
   a:hover, a:focus, a:active {
-    color: midnightblue; }
-  a:focus {
-    outline: thin dotted; }
-  a:hover, a:active {
-    outline: 0; }
-
-/*--------------------------------------------------------------
-# Links
---------------------------------------------------------------*/
-a {
-  color: royalblue; }
-  a:visited {
-    color: purple; }
-  a:hover, a:focus, a:active {
-    color: midnightblue; }
+    color: #999; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
@@ -609,6 +602,17 @@ html {
 body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */ }
+
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+#masthead .site-branding {
+  text-align: center;
+  margin-top: 80px; }
+  #masthead .site-branding .site-title {
+    margin-bottom: 0px; }
+  #masthead .site-branding .site-description {
+    margin-top: 0px; }
 
 /*--------------------------------------------------------------
 ## Posts
