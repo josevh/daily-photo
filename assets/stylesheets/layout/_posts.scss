@@ -26,3 +26,28 @@
 .archive .format-aside .entry-title {
 	display: none;
 }
+
+.has-post-thumbnail,
+.format-image {
+    
+    > .image-wrapper {
+        width: 75%;
+        float: left;
+    }
+    
+    >.content-wrapper {
+        width: 25%;
+        float: left;
+        text-align: right;
+        padding: 5px 15px;
+        
+        .entry-title{
+            margin-bottom: 0px;
+        }
+        
+        .entry-meta {
+            font-size: 75%;
+        }
+    }
+    }
+    

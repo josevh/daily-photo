@@ -12,6 +12,10 @@ body {
 	background: $color__background-body; /* Fallback for when there is no custom background color defined. */
 }
 
+#secondary {
+    clear: both;
+}
+
 // @import "content-sidebar";
 // @import "sidebar-content";
 

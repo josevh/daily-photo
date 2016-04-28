@@ -605,6 +605,9 @@ body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */ }
 
+#secondary {
+  clear: both; }
+
 /*--------------------------------------------------------------
 ## Header
 --------------------------------------------------------------*/
@@ -641,6 +644,23 @@ body {
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
   display: none; }
+
+.has-post-thumbnail > .image-wrapper,
+.format-image > .image-wrapper {
+  width: 75%;
+  float: left; }
+.has-post-thumbnail > .content-wrapper,
+.format-image > .content-wrapper {
+  width: 25%;
+  float: left;
+  text-align: right;
+  padding: 5px 15px; }
+  .has-post-thumbnail > .content-wrapper .entry-title,
+  .format-image > .content-wrapper .entry-title {
+    margin-bottom: 0px; }
+  .has-post-thumbnail > .content-wrapper .entry-meta,
+  .format-image > .content-wrapper .entry-meta {
+    font-size: 75%; }
 
 /*--------------------------------------------------------------
 ## Pages
