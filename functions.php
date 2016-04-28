@@ -117,9 +117,11 @@ add_action( 'widgets_init', 'daily_photo_widgets_init' );
  * Enqueue scripts and styles.
  */
 function daily_photo_scripts() {
-    wp_enqueue_style( 'dailyphoto-google-font', 'http://fonts.googleapis.com/css?family=Montserrat');
+    wp_enqueue_style( 'dailyphoto-google-font1', 'http://fonts.googleapis.com/css?family=Montserrat');
     
-    wp_enqueue_style( 'dailyphoto-google-font', 'http://fonts.googleapis.com/css?family=Open+Sans');
+    wp_enqueue_style( 'dailyphoto-google-font2', 'http://fonts.googleapis.com/css?family=Open+Sans');
+    
+    wp_enqueue_style( 'dailyphoto-font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css');
     
 	wp_enqueue_style( 'daily-photo-style', get_stylesheet_uri() );
 
