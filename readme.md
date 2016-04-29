@@ -25,4 +25,4 @@ Wordpress theme intended for personal 365 project, can be used for general photo
 * normalize.css http://necolas.github.io/normalize.css/, (C) 2012-2016 Nicolas Gallagher and Jonathan Neal, [MIT](http://opensource.org/licenses/MIT)
 
 ### Screenshot
-<img scr="/screenshot.png" width="600" height="450" alt="Screenshot" />
+<img src="/screenshot.png" width="600" height="450" alt="Screenshot" />
