@@ -6,10 +6,19 @@
         
         .site-title {
             margin-bottom: 0px;
+            font-family: $font__header;
+            font-size: 3.5em;
         }
         
         .site-description {
             margin-top: 0px;
+        }
+    }
+    
+    #site-navigation {
+        #top-menu {
+            text-transform: uppercase;
+            font-size: 90%;
         }
     }
 }

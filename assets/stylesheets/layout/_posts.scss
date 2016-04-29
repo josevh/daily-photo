@@ -39,19 +39,28 @@
     >.content-wrapper {
         width: 25%;
         float: left;
-        text-align: right;
         padding: 5px 15px;
         
-        .entry-title{
-            margin-bottom: 0px;
+        header {
+            text-align: right;
+            
+            .entry-title{
+                margin-bottom: 0px;
+                font-family: $font__main;
+            }
+            
+            .entry-meta {
+                font-size: 75%;
+            }
         }
         
-        .entry-meta {
-            font-size: 75%;
-        }
-        
-        p {
-            font-size: 85%;
+        .entry-content {
+            p {
+                font-size: 85%;
+                padding-left: 15px;
+                text-align: justify;
+                text-justify: inter-word;
+            }    
         }
     }
 }

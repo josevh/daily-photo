@@ -315,7 +315,7 @@ input,
 select,
 textarea {
   color: #404040;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5; }
@@ -614,9 +614,14 @@ body {
   text-align: center;
   margin-top: 80px; }
   #masthead .site-branding .site-title {
-    margin-bottom: 0px; }
+    margin-bottom: 0px;
+    font-family: "Dancing Script", sans-serif;
+    font-size: 3.5em; }
   #masthead .site-branding .site-description {
     margin-top: 0px; }
+#masthead #site-navigation #top-menu {
+  text-transform: uppercase;
+  font-size: 90%; }
 
 /*--------------------------------------------------------------
 ## Posts
@@ -655,17 +660,23 @@ body {
   .format-image > .content-wrapper {
     width: 25%;
     float: left;
-    text-align: right;
     padding: 5px 15px; }
-    .has-post-thumbnail > .content-wrapper .entry-title,
-    .format-image > .content-wrapper .entry-title {
-      margin-bottom: 0px; }
-    .has-post-thumbnail > .content-wrapper .entry-meta,
-    .format-image > .content-wrapper .entry-meta {
-      font-size: 75%; }
-    .has-post-thumbnail > .content-wrapper p,
-    .format-image > .content-wrapper p {
-      font-size: 85%; }
+    .has-post-thumbnail > .content-wrapper header,
+    .format-image > .content-wrapper header {
+      text-align: right; }
+      .has-post-thumbnail > .content-wrapper header .entry-title,
+      .format-image > .content-wrapper header .entry-title {
+        margin-bottom: 0px;
+        font-family: "Open Sans", sans-serif; }
+      .has-post-thumbnail > .content-wrapper header .entry-meta,
+      .format-image > .content-wrapper header .entry-meta {
+        font-size: 75%; }
+    .has-post-thumbnail > .content-wrapper .entry-content p,
+    .format-image > .content-wrapper .entry-content p {
+      font-size: 85%;
+      padding-left: 15px;
+      text-align: justify;
+      text-justify: inter-word; }
 
 /*--------------------------------------------------------------
 ## Pages
