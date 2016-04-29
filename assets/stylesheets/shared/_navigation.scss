@@ -3,15 +3,25 @@
 .comment-navigation,
 .posts-navigation,
 .post-navigation {
-
+    padding: 15px;
+    clear: both;
+    margin: auto;
+    width: 100%;
+    
+    a {
+        background-color: $color__background-sidebar;
+        color: #fff;
+        padding: 10px 5px;
+    }
+    
 	.site-main & {
 		margin: 0 0 1.5em;
 		overflow: hidden;
 	}
 
 	.nav-previous {
-		float: left;
-		width: 50%;
+		float: right;
+// 		width: 50%;
 	}
 
 	.nav-next {
