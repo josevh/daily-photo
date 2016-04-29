@@ -649,30 +649,30 @@ body {
 .archive .format-aside .entry-title {
   display: none; }
 
-.has-post-thumbnail,
-.format-image {
+.post.type-post.has-post-thumbnail,
+.post.type.post.format-image {
   clear: both; }
-  .has-post-thumbnail > .image-wrapper,
-  .format-image > .image-wrapper {
+  .post.type-post.has-post-thumbnail > .image-wrapper,
+  .post.type.post.format-image > .image-wrapper {
     width: 75%;
     float: left; }
-  .has-post-thumbnail > .content-wrapper,
-  .format-image > .content-wrapper {
+  .post.type-post.has-post-thumbnail > .content-wrapper,
+  .post.type.post.format-image > .content-wrapper {
     width: 25%;
     float: left;
     padding: 5px 15px; }
-    .has-post-thumbnail > .content-wrapper header,
-    .format-image > .content-wrapper header {
+    .post.type-post.has-post-thumbnail > .content-wrapper header,
+    .post.type.post.format-image > .content-wrapper header {
       text-align: right; }
-      .has-post-thumbnail > .content-wrapper header .entry-title,
-      .format-image > .content-wrapper header .entry-title {
+      .post.type-post.has-post-thumbnail > .content-wrapper header .entry-title,
+      .post.type.post.format-image > .content-wrapper header .entry-title {
         margin-bottom: 0px;
         font-family: "Open Sans", sans-serif; }
-      .has-post-thumbnail > .content-wrapper header .entry-meta,
-      .format-image > .content-wrapper header .entry-meta {
+      .post.type-post.has-post-thumbnail > .content-wrapper header .entry-meta,
+      .post.type.post.format-image > .content-wrapper header .entry-meta {
         font-size: 75%; }
-    .has-post-thumbnail > .content-wrapper .entry-content p,
-    .format-image > .content-wrapper .entry-content p {
+    .post.type-post.has-post-thumbnail > .content-wrapper .entry-content p,
+    .post.type.post.format-image > .content-wrapper .entry-content p {
       font-size: 85%;
       padding-left: 15px;
       text-align: justify;
