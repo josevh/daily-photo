@@ -715,11 +715,47 @@ footer {
 /*--------------------------------------------------------------
 # Comments
 --------------------------------------------------------------*/
-.comment-content a {
-  word-wrap: break-word; }
-
 .bypostauthor {
   display: block; }
+
+#comments {
+  clear: both;
+  padding: 15px 30px 15px 30px;
+  width: 50%; }
+  #comments .comment {
+    padding: 15px 5px; }
+    #comments .comment .comment-content a {
+      word-wrap: break-word; }
+    #comments .comment .comment-meta {
+      color: #000;
+      background-color: #fff; }
+      #comments .comment .comment-meta a {
+        color: #000; }
+      #comments .comment .comment-meta .comment-author b {
+        float: right;
+        text-transform: uppercase; }
+      #comments .comment .comment-meta .comment-author img {
+        float: left;
+        border-radius: 50%; }
+      #comments .comment .comment-meta .comment-author span {
+        display: none; }
+      #comments .comment .comment-meta .comment-metadata {
+        clear: both;
+        float: right;
+        font-size: 75%;
+        margin-top: -10px; }
+        #comments .comment .comment-meta .comment-metadata span > a {
+          border-bottom: 1px dotted #000; }
+    #comments .comment .comment-content {
+      clear: both;
+      padding-left: 30px; }
+      #comments .comment .comment-content p {
+        font-size: 90%; }
+    #comments .comment .reply {
+      text-align: right;
+      font-size: 75%; }
+      #comments .comment .reply a {
+        border-bottom: 1px dotted #000; }
 
 /*--------------------------------------------------------------
 # Widgets
