@@ -38,6 +38,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     ## Header
 	## Posts
 	## Pages
+	## Footer
 # Comments
 # Widgets
 # Infinite scroll
@@ -685,6 +686,16 @@ body {
 .page-links {
   clear: both;
   margin: 0 0 1.5em; }
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+footer {
+  background-color: #23282d;
+  color: #fff;
+  padding: 0px 15px; }
+  footer a {
+    color: #fff; }
 
 /*--------------------------------------------------------------
 # Comments
