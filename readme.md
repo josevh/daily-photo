@@ -14,6 +14,9 @@ A custom starter theme called Daily Photo.
 ## Description
 Wordpress theme intended for personal 365 project, can be used for general photo blog.
 
+## 3rd Party Support
+ * Jetpack's Portfolios
+
 #### Installation
 1. In your admin panel, go to Appearance > Themes and click the Add New button.
 2. Click Upload and Choose File, then select the theme's .zip file. Click Install Now.
