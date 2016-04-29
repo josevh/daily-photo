@@ -685,6 +685,16 @@ body {
   clear: both;
   margin: 0 0 1.5em; }
 
+#primary .page {
+  margin: 15px 150px; }
+  #primary .page footer {
+    color: #000;
+    background-color: #fff;
+    text-align: right; }
+    #primary .page footer a {
+      color: #000;
+      border-bottom: 1px dotted #000; }
+
 /*--------------------------------------------------------------
 ## Secondary
 --------------------------------------------------------------*/
