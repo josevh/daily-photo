@@ -23,3 +23,6 @@ Wordpress theme intended for personal 365 project, can be used for general photo
 
 * Based on Components http://components.underscores.me/, (C) 2015-2016 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * normalize.css http://necolas.github.io/normalize.css/, (C) 2012-2016 Nicolas Gallagher and Jonathan Neal, [MIT](http://opensource.org/licenses/MIT)
+
+### Screenshot
+<img scr="https://github.com/josevh/daily-photo/blob/master/screenshot.png" width="600" height="450" alt="Screenshot" />
