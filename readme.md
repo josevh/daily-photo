@@ -16,6 +16,7 @@ Wordpress theme intended for personal 365 project, can be used for general photo
 
 ## 3rd Party Support
  * Jetpack's Portfolios
+ * Jetpack's Infinte Scroll
 
 #### Installation
 1. In your admin panel, go to Appearance > Themes and click the Add New button.
