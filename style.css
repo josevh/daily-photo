@@ -38,6 +38,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     ## Header
 	## Posts
 	## Pages
+	## Secondary
 	## Footer
 # Comments
 # Widgets
@@ -606,20 +607,6 @@ body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */ }
 
-#secondary {
-  clear: both;
-  background-color: #23282d;
-  color: #fff;
-  float: left;
-  width: 100%;
-  padding: 15px;
-  font-size: 75%; }
-  #secondary a {
-    color: #fff; }
-  #secondary .widget {
-    float: left;
-    margin: 15px; }
-
 /*--------------------------------------------------------------
 ## Header
 --------------------------------------------------------------*/
@@ -686,6 +673,23 @@ body {
 .page-links {
   clear: both;
   margin: 0 0 1.5em; }
+
+/*--------------------------------------------------------------
+## Secondary
+--------------------------------------------------------------*/
+#secondary {
+  clear: both;
+  background-color: #23282d;
+  color: #fff;
+  float: left;
+  width: 100%;
+  padding: 15px;
+  font-size: 75%; }
+  #secondary a {
+    color: #fff; }
+  #secondary .widget {
+    float: left;
+    margin: 15px; }
 
 /*--------------------------------------------------------------
 ## Footer

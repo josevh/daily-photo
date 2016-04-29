@@ -12,25 +12,6 @@ body {
 	background: $color__background-body; /* Fallback for when there is no custom background color defined. */
 }
 
-#secondary {
-    clear: both;
-    background-color: $color__background-sidebar;
-    color: #fff;
-    float: left;
-    width: 100%;
-    padding: 15px;
-    font-size: 75%;
-    
-    a {
-        color: #fff;
-    }
-    
-    .widget {
-        float: left;
-        margin: 15px;
-    }
-}
-
 // @import "content-sidebar";
 // @import "sidebar-content";
 
@@ -48,6 +29,11 @@ body {
 ## Pages
 --------------------------------------------------------------*/
 @import "pages";
+
+/*--------------------------------------------------------------
+## Secondary
+--------------------------------------------------------------*/
+@import "secondary";
 
 /*--------------------------------------------------------------
 ## Footer
