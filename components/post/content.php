@@ -10,13 +10,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php if ( '' != get_the_post_thumbnail() ) : ?>
-		<div class="post-thumbnail">
-			<a href="<?php the_permalink(); ?>">
-				<?php the_post_thumbnail( 'daily-photo-featured-image' ); ?>
-			</a>
-		</div>
-	<?php endif; ?>
+	
 
 	<header class="entry-header">
 		<?php
@@ -30,7 +24,16 @@
 		<?php get_template_part( 'components/post/content', 'meta' ); ?>
 		<?php
 		endif; ?>
+		
+		<?php if ( '' != get_the_post_thumbnail() ) : ?>
+		<div class="post-thumbnail">
+			<a href="<?php the_permalink(); ?>">
+				<?php the_post_thumbnail( 'daily-photo-featured-image' ); ?>
+			</a>
+		</div>
+	<?php endif; ?>
 	</header>
+	
 	<div class="entry-content">
 	<?php 
 // 	var_dump(get_post_format( the_ID() )); 

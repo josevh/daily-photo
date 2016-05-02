@@ -58,6 +58,18 @@
           font-size: 75%;
       }
   }
+  
+  .post-thumbnail {
+    width: 100%;
+    margin-top: 30px;
+    
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 80%;
+    }
+  }
 }
 
 .post.type-post.has-post-thumbnail,

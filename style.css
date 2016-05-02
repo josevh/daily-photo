@@ -686,6 +686,14 @@ body {
     font-family: "Open Sans", sans-serif; }
   .format-standard header .entry-meta {
     font-size: 75%; }
+  .format-standard .post-thumbnail {
+    width: 100%;
+    margin-top: 30px; }
+    .format-standard .post-thumbnail img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 80%; }
 
 .post.type-post.has-post-thumbnail,
 .post.type-post.format-image {
