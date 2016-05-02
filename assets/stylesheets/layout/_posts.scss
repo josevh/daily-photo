@@ -111,15 +111,21 @@
 
 
 .entry-footer {
+  background-color: transparent;
   max-width: 75%;
   clear: both;
-  
-  span {
-    margin-left: 5px;
-    margin-right: 5px;
-  }
     
   .edit-link {
     float: right;
+  }
+  
+  a {
+    color: $color__text-main;
+    border-bottom: 1px dotted #000;
+    
+    &:hover,
+    &focus {
+      color: $color__link-hover;
+    }
   }
 }
