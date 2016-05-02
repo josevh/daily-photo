@@ -725,10 +725,14 @@ body {
 
 .entry-footer {
   background-color: transparent;
-  max-width: 75%;
-  clear: both; }
+  width: 25%;
+  clear: both;
+  float: right;
+  margin-bottom: 30px; }
   .entry-footer .edit-link {
     float: right; }
+  .entry-footer .comments-link {
+    float: left; }
   .entry-footer a {
     color: #404040;
     border-bottom: 1px dotted #000; }

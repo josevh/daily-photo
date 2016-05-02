@@ -112,11 +112,17 @@
 
 .entry-footer {
   background-color: transparent;
-  max-width: 75%;
+  width: 25%;
   clear: both;
+  float: right;
+  margin-bottom: 30px;
     
   .edit-link {
     float: right;
+  }
+  
+  .comments-link {
+    float: left;
   }
   
   a {
