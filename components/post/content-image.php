@@ -53,9 +53,9 @@
             echo $content; 
     		?>
     	</div>
-    	<?php /*get_template_part( 'components/post/content', 'footer' );*/ ?>
+    	
     </div>
-	
+	<?php get_template_part( 'components/post/content', 'footer' ); ?>
 
 	
 </article><!-- #post-## -->

@@ -28,7 +28,6 @@
 }
 
 .format-standard {
-    margin-left: 15px;
     margin-right: 5px;
   
   .entry-header {
@@ -44,7 +43,7 @@
     margin-top: 25px;
     margin-bottom: 10px;
     border-right: 1px solid #000;
-    padding-left: 15px;
+    padding-left: 30px;
     padding-right: 15px;
   }
   
@@ -109,4 +108,18 @@
         }
     }
 }
+
+
+.entry-footer {
+  max-width: 75%;
+  clear: both;
+  
+  span {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
     
+  .edit-link {
+    float: right;
+  }
+}

@@ -665,7 +665,6 @@ body {
   display: none; }
 
 .format-standard {
-  margin-left: 15px;
   margin-right: 5px; }
   .format-standard .entry-header {
     text-align: right;
@@ -679,7 +678,7 @@ body {
     margin-top: 25px;
     margin-bottom: 10px;
     border-right: 1px solid #000;
-    padding-left: 15px;
+    padding-left: 30px;
     padding-right: 15px; }
   .format-standard header .entry-title {
     margin-bottom: 0px;
@@ -723,6 +722,15 @@ body {
       padding-left: 15px;
       text-align: justify;
       text-justify: inter-word; }
+
+.entry-footer {
+  max-width: 75%;
+  clear: both; }
+  .entry-footer span {
+    margin-left: 5px;
+    margin-right: 5px; }
+  .entry-footer .edit-link {
+    float: right; }
 
 /*--------------------------------------------------------------
 ## Pages
