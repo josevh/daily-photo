@@ -27,6 +27,39 @@
 	display: none;
 }
 
+.format-standard {
+    margin-left: 15px;
+    margin-right: 5px;
+  
+  .entry-header {
+    text-align: right;
+    float: right;
+    width: 25%;
+    margin-top: 25px;
+    padding-left: 5px;
+  }
+  .entry-content {
+    float: left;
+    width: 75%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-right: 1px solid #000;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  header {
+      .entry-title{
+          margin-bottom: 0px;
+          font-family: $font__main;
+      }
+      
+      .entry-meta {
+          font-size: 75%;
+      }
+  }
+}
+
 .post.type-post.has-post-thumbnail,
 .post.type-post.format-image {
     clear: both;
