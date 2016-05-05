@@ -1,8 +1,30 @@
 .jetpack-portfolio {
   float: none;
   width: 100%;
+  margin: 15px;
+  
+  .entry-header {
+    
+    .entry-title {
+      margin-bottom: 0;
+    }
+    
+    .portfolio-entry-meta {
+      margin-left: 15px;
+    }
+  }
+  
+  .entry-content {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .portfolio-entry-header {
   font-size: 80%;
+  
+  .entry-title {
+    margin-bottom: 0;
+  }
 }
